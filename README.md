@@ -1,3 +1,7 @@
+## Loading more users in function loadMore() (App.tsx):
+
+When in landscape-mode, all users from page 1 are initialized. Because scroll isn't enabled, no more users are loaded. There needs to be some sort of scroll-possibility to load more users.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

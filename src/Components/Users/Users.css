@@ -1,0 +1,47 @@
+.allUsersContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.userContainer {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.userImage {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.userInformation {
+  display: grid;
+  grid-gap: 10px;
+  align-self: center;
+}
+
+.userName {
+  font-weight: bold;
+}
+
+@media (pointer: fine) {
+  .userEmail:hover {
+    color: #484848;
+  }
+}
+
+@media (min-width: 400px) {
+  .userContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    max-width: 350px;
+  }
+
+  .userImage {
+    height: 100%;
+  }
+}
+
+@media (min-width: 700px) {
+}
